@@ -13,7 +13,7 @@ The interface is very simple and intuitive.
 - **Difficulty selection menu**: *here you can choose the difficulty of the game (**This will affect the number of attempts to guess**).*
 - **Restart Menu**: *After guessing all the words, the game restart screen appears.*
 
-<img src="https://github.com/Narimanskiy/Doter/blob/main/Doter/Screenshots/Screenshot01.png" width="150"> <img src="https://github.com/Narimanskiy/Doter/blob/main/Doter/Screenshots/Screenshot02.png" width="150"> <img src="https://github.com/Narimanskiy/Doter/blob/main/Doter/Screenshots/Screenshot03.png" width="150"> <img src="https://github.com/Narimanskiy/Doter/blob/main/Doter/Screenshots/Screenshot04.png" width="150"> <img src="https://github.com/Narimanskiy/Doter/blob/main/Doter/Screenshots/Screenshot07.png" width="150">
+<img src="https://github.com/Narimanskiy/Doter/blob/main/Doter/Screenshots/Screenshot08.png" width="150"> <img src="https://github.com/Narimanskiy/Doter/blob/main/Doter/Screenshots/Screenshot01.png" width="150"> <img src="https://github.com/Narimanskiy/Doter/blob/main/Doter/Screenshots/Screenshot02.png" width="150"> <img src="https://github.com/Narimanskiy/Doter/blob/main/Doter/Screenshots/Screenshot03.png" width="150"> <img src="https://github.com/Narimanskiy/Doter/blob/main/Doter/Screenshots/Screenshot04.png" width="150"> <img src="https://github.com/Narimanskiy/Doter/blob/main/Doter/Screenshots/Screenshot07.png" width="150">
 
 ## Gameplay
 Depending on the difficulty of the game, you will have a limited number of attempts to guess the word (7/6/5).
