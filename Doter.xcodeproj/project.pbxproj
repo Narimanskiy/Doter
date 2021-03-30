@@ -26,9 +26,9 @@
 		CECDEBC52613C61E00BA7E37 /* Screenshot07.png in Resources */ = {isa = PBXBuildFile; fileRef = CECDEBBD2613C61E00BA7E37 /* Screenshot07.png */; };
 		CECDEBC62613C61E00BA7E37 /* Screenshot05.png in Resources */ = {isa = PBXBuildFile; fileRef = CECDEBBE2613C61E00BA7E37 /* Screenshot05.png */; };
 		CECDEBC72613C61E00BA7E37 /* Screenshot06.png in Resources */ = {isa = PBXBuildFile; fileRef = CECDEBBF2613C61E00BA7E37 /* Screenshot06.png */; };
-		CECDEBC82613C61E00BA7E37 /* Screenshot08.png in Resources */ = {isa = PBXBuildFile; fileRef = CECDEBC02613C61E00BA7E37 /* Screenshot08.png */; };
 		CECDEBC92613C61E00BA7E37 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = CECDEBC12613C61E00BA7E37 /* Screenshot02.png */; };
 		CECDEBCA2613C61E00BA7E37 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = CECDEBC22613C61E00BA7E37 /* Screenshot01.png */; };
+		CECDEBCD2613CC9700BA7E37 /* Screenshot08.png in Resources */ = {isa = PBXBuildFile; fileRef = CECDEBCC2613CC9700BA7E37 /* Screenshot08.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,9 +53,9 @@
 		CECDEBBD2613C61E00BA7E37 /* Screenshot07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot07.png; sourceTree = "<group>"; };
 		CECDEBBE2613C61E00BA7E37 /* Screenshot05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot05.png; sourceTree = "<group>"; };
 		CECDEBBF2613C61E00BA7E37 /* Screenshot06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot06.png; sourceTree = "<group>"; };
-		CECDEBC02613C61E00BA7E37 /* Screenshot08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot08.png; sourceTree = "<group>"; };
 		CECDEBC12613C61E00BA7E37 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
 		CECDEBC22613C61E00BA7E37 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		CECDEBCC2613CC9700BA7E37 /* Screenshot08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot08.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +142,7 @@
 				CECDEBBE2613C61E00BA7E37 /* Screenshot05.png */,
 				CECDEBBF2613C61E00BA7E37 /* Screenshot06.png */,
 				CECDEBBD2613C61E00BA7E37 /* Screenshot07.png */,
-				CECDEBC02613C61E00BA7E37 /* Screenshot08.png */,
+				CECDEBCC2613CC9700BA7E37 /* Screenshot08.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -208,8 +208,8 @@
 				CE3E0CAC2612608600BAB17F /* backgroundMusic.mp3 in Resources */,
 				CECDEBCA2613C61E00BA7E37 /* Screenshot01.png in Resources */,
 				CECDEBC52613C61E00BA7E37 /* Screenshot07.png in Resources */,
-				CECDEBC82613C61E00BA7E37 /* Screenshot08.png in Resources */,
 				CECDEBC92613C61E00BA7E37 /* Screenshot02.png in Resources */,
+				CECDEBCD2613CC9700BA7E37 /* Screenshot08.png in Resources */,
 				CECDEBC42613C61E00BA7E37 /* Screenshot03.png in Resources */,
 				CE3E0CA72612604800BAB17F /* myFont.ttf in Resources */,
 				CECDEBC72613C61E00BA7E37 /* Screenshot06.png in Resources */,
