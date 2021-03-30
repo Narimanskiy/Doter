@@ -21,6 +21,14 @@
 		CE3E0CA72612604800BAB17F /* myFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE3E0CA62612604800BAB17F /* myFont.ttf */; };
 		CE3E0CAB2612608600BAB17F /* buttonClick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE3E0CA92612608600BAB17F /* buttonClick.mp3 */; };
 		CE3E0CAC2612608600BAB17F /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE3E0CAA2612608600BAB17F /* backgroundMusic.mp3 */; };
+		CECDEBC32613C61E00BA7E37 /* Screenshot04.png in Resources */ = {isa = PBXBuildFile; fileRef = CECDEBBB2613C61E00BA7E37 /* Screenshot04.png */; };
+		CECDEBC42613C61E00BA7E37 /* Screenshot03.png in Resources */ = {isa = PBXBuildFile; fileRef = CECDEBBC2613C61E00BA7E37 /* Screenshot03.png */; };
+		CECDEBC52613C61E00BA7E37 /* Screenshot07.png in Resources */ = {isa = PBXBuildFile; fileRef = CECDEBBD2613C61E00BA7E37 /* Screenshot07.png */; };
+		CECDEBC62613C61E00BA7E37 /* Screenshot05.png in Resources */ = {isa = PBXBuildFile; fileRef = CECDEBBE2613C61E00BA7E37 /* Screenshot05.png */; };
+		CECDEBC72613C61E00BA7E37 /* Screenshot06.png in Resources */ = {isa = PBXBuildFile; fileRef = CECDEBBF2613C61E00BA7E37 /* Screenshot06.png */; };
+		CECDEBC82613C61E00BA7E37 /* Screenshot08.png in Resources */ = {isa = PBXBuildFile; fileRef = CECDEBC02613C61E00BA7E37 /* Screenshot08.png */; };
+		CECDEBC92613C61E00BA7E37 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = CECDEBC12613C61E00BA7E37 /* Screenshot02.png */; };
+		CECDEBCA2613C61E00BA7E37 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = CECDEBC22613C61E00BA7E37 /* Screenshot01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +48,14 @@
 		CE3E0CA62612604800BAB17F /* myFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = myFont.ttf; sourceTree = "<group>"; };
 		CE3E0CA92612608600BAB17F /* buttonClick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buttonClick.mp3; sourceTree = "<group>"; };
 		CE3E0CAA2612608600BAB17F /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
+		CECDEBBB2613C61E00BA7E37 /* Screenshot04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot04.png; sourceTree = "<group>"; };
+		CECDEBBC2613C61E00BA7E37 /* Screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot03.png; sourceTree = "<group>"; };
+		CECDEBBD2613C61E00BA7E37 /* Screenshot07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot07.png; sourceTree = "<group>"; };
+		CECDEBBE2613C61E00BA7E37 /* Screenshot05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot05.png; sourceTree = "<group>"; };
+		CECDEBBF2613C61E00BA7E37 /* Screenshot06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot06.png; sourceTree = "<group>"; };
+		CECDEBC02613C61E00BA7E37 /* Screenshot08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot08.png; sourceTree = "<group>"; };
+		CECDEBC12613C61E00BA7E37 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		CECDEBC22613C61E00BA7E37 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +88,7 @@
 		CE3E0C7226125A1500BAB17F /* Doter */ = {
 			isa = PBXGroup;
 			children = (
+				CECDEBA72613C55900BA7E37 /* Screenshots */,
 				CE3E0C9326125C2E00BAB17F /* Structures */,
 				CE3E0C8A26125B2C00BAB17F /* Music */,
 				CE3E0C8826125A7900BAB17F /* Fonts */,
@@ -113,6 +130,21 @@
 				CE3E0C9B26125C6900BAB17F /* Words.swift */,
 			);
 			path = Structures;
+			sourceTree = "<group>";
+		};
+		CECDEBA72613C55900BA7E37 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				CECDEBC22613C61E00BA7E37 /* Screenshot01.png */,
+				CECDEBC12613C61E00BA7E37 /* Screenshot02.png */,
+				CECDEBBC2613C61E00BA7E37 /* Screenshot03.png */,
+				CECDEBBB2613C61E00BA7E37 /* Screenshot04.png */,
+				CECDEBBE2613C61E00BA7E37 /* Screenshot05.png */,
+				CECDEBBF2613C61E00BA7E37 /* Screenshot06.png */,
+				CECDEBBD2613C61E00BA7E37 /* Screenshot07.png */,
+				CECDEBC02613C61E00BA7E37 /* Screenshot08.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,7 +206,15 @@
 			files = (
 				CE3E0C7D26125A1800BAB17F /* Assets.xcassets in Resources */,
 				CE3E0CAC2612608600BAB17F /* backgroundMusic.mp3 in Resources */,
+				CECDEBCA2613C61E00BA7E37 /* Screenshot01.png in Resources */,
+				CECDEBC52613C61E00BA7E37 /* Screenshot07.png in Resources */,
+				CECDEBC82613C61E00BA7E37 /* Screenshot08.png in Resources */,
+				CECDEBC92613C61E00BA7E37 /* Screenshot02.png in Resources */,
+				CECDEBC42613C61E00BA7E37 /* Screenshot03.png in Resources */,
 				CE3E0CA72612604800BAB17F /* myFont.ttf in Resources */,
+				CECDEBC72613C61E00BA7E37 /* Screenshot06.png in Resources */,
+				CECDEBC32613C61E00BA7E37 /* Screenshot04.png in Resources */,
+				CECDEBC62613C61E00BA7E37 /* Screenshot05.png in Resources */,
 				CE3E0CAB2612608600BAB17F /* buttonClick.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
