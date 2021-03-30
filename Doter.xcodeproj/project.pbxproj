@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		CE3E0C7426125A1500BAB17F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E0C7326125A1500BAB17F /* AppDelegate.swift */; };
-		CE3E0C7626125A1500BAB17F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E0C7526125A1500BAB17F /* SceneDelegate.swift */; };
-		CE3E0C7826125A1500BAB17F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E0C7726125A1500BAB17F /* ViewController.swift */; };
-		CE3E0C7B26125A1500BAB17F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3E0C7926125A1500BAB17F /* Main.storyboard */; };
+		CE3E0C7626125A1500BAB17F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E0C7526125A1500BAB17F /* BaseViewController.swift */; };
+		CE3E0C7826125A1500BAB17F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E0C7726125A1500BAB17F /* GameViewController.swift */; };
 		CE3E0C7D26125A1800BAB17F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3E0C7C26125A1800BAB17F /* Assets.xcassets */; };
-		CE3E0C8026125A1800BAB17F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3E0C7E26125A1800BAB17F /* LaunchScreen.storyboard */; };
+		CE3E0C8C26125B8A00BAB17F /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E0C8B26125B8A00BAB17F /* OptionsViewController.swift */; };
+		CE3E0C9126125BC400BAB17F /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E0C9026125BC400BAB17F /* SetupViewController.swift */; };
+		CE3E0C9526125C4900BAB17F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E0C9426125C4900BAB17F /* Game.swift */; };
+		CE3E0C9926125C5900BAB17F /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E0C9826125C5900BAB17F /* AudioPlayer.swift */; };
+		CE3E0C9C26125C6900BAB17F /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E0C9B26125C6900BAB17F /* Words.swift */; };
+		CE3E0C9F26125CD500BAB17F /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E0C9E26125CD500BAB17F /* ThemeViewController.swift */; };
+		CE3E0CA226125CFE00BAB17F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E0CA126125CFE00BAB17F /* MenuViewController.swift */; };
+		CE3E0CA72612604800BAB17F /* myFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE3E0CA62612604800BAB17F /* myFont.ttf */; };
+		CE3E0CAB2612608600BAB17F /* buttonClick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE3E0CA92612608600BAB17F /* buttonClick.mp3 */; };
+		CE3E0CAC2612608600BAB17F /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE3E0CAA2612608600BAB17F /* backgroundMusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE3E0C7026125A1500BAB17F /* Doter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3E0C7326125A1500BAB17F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE3E0C7526125A1500BAB17F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE3E0C7726125A1500BAB17F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE3E0C7A26125A1500BAB17F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE3E0C7526125A1500BAB17F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CE3E0C7726125A1500BAB17F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		CE3E0C7C26125A1800BAB17F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE3E0C7F26125A1800BAB17F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE3E0C8126125A1800BAB17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3E0C8B26125B8A00BAB17F /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		CE3E0C9026125BC400BAB17F /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		CE3E0C9426125C4900BAB17F /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		CE3E0C9826125C5900BAB17F /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		CE3E0C9B26125C6900BAB17F /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
+		CE3E0C9E26125CD500BAB17F /* ThemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeViewController.swift; sourceTree = "<group>"; };
+		CE3E0CA126125CFE00BAB17F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CE3E0CA62612604800BAB17F /* myFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = myFont.ttf; sourceTree = "<group>"; };
+		CE3E0CA92612608600BAB17F /* buttonClick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buttonClick.mp3; sourceTree = "<group>"; };
+		CE3E0CAA2612608600BAB17F /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,47 @@
 		CE3E0C7226125A1500BAB17F /* Doter */ = {
 			isa = PBXGroup;
 			children = (
+				CE3E0C9326125C2E00BAB17F /* Structures */,
+				CE3E0C8A26125B2C00BAB17F /* Music */,
+				CE3E0C8826125A7900BAB17F /* Fonts */,
 				CE3E0C7326125A1500BAB17F /* AppDelegate.swift */,
-				CE3E0C7526125A1500BAB17F /* SceneDelegate.swift */,
-				CE3E0C7726125A1500BAB17F /* ViewController.swift */,
-				CE3E0C7926125A1500BAB17F /* Main.storyboard */,
+				CE3E0C7526125A1500BAB17F /* BaseViewController.swift */,
+				CE3E0C7726125A1500BAB17F /* GameViewController.swift */,
+				CE3E0C8B26125B8A00BAB17F /* OptionsViewController.swift */,
+				CE3E0C9026125BC400BAB17F /* SetupViewController.swift */,
+				CE3E0C9E26125CD500BAB17F /* ThemeViewController.swift */,
+				CE3E0CA126125CFE00BAB17F /* MenuViewController.swift */,
 				CE3E0C7C26125A1800BAB17F /* Assets.xcassets */,
-				CE3E0C7E26125A1800BAB17F /* LaunchScreen.storyboard */,
 				CE3E0C8126125A1800BAB17F /* Info.plist */,
 			);
 			path = Doter;
+			sourceTree = "<group>";
+		};
+		CE3E0C8826125A7900BAB17F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE3E0CA62612604800BAB17F /* myFont.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CE3E0C8A26125B2C00BAB17F /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				CE3E0CAA2612608600BAB17F /* backgroundMusic.mp3 */,
+				CE3E0CA92612608600BAB17F /* buttonClick.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		CE3E0C9326125C2E00BAB17F /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				CE3E0C9426125C4900BAB17F /* Game.swift */,
+				CE3E0C9826125C5900BAB17F /* AudioPlayer.swift */,
+				CE3E0C9B26125C6900BAB17F /* Words.swift */,
+			);
+			path = Structures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +172,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3E0C8026125A1800BAB17F /* LaunchScreen.storyboard in Resources */,
 				CE3E0C7D26125A1800BAB17F /* Assets.xcassets in Resources */,
-				CE3E0C7B26125A1500BAB17F /* Main.storyboard in Resources */,
+				CE3E0CAC2612608600BAB17F /* backgroundMusic.mp3 in Resources */,
+				CE3E0CA72612604800BAB17F /* myFont.ttf in Resources */,
+				CE3E0CAB2612608600BAB17F /* buttonClick.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,32 +186,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3E0C7826125A1500BAB17F /* ViewController.swift in Sources */,
+				CE3E0C7826125A1500BAB17F /* GameViewController.swift in Sources */,
+				CE3E0CA226125CFE00BAB17F /* MenuViewController.swift in Sources */,
+				CE3E0C9526125C4900BAB17F /* Game.swift in Sources */,
+				CE3E0C8C26125B8A00BAB17F /* OptionsViewController.swift in Sources */,
 				CE3E0C7426125A1500BAB17F /* AppDelegate.swift in Sources */,
-				CE3E0C7626125A1500BAB17F /* SceneDelegate.swift in Sources */,
+				CE3E0C7626125A1500BAB17F /* BaseViewController.swift in Sources */,
+				CE3E0C9C26125C6900BAB17F /* Words.swift in Sources */,
+				CE3E0C9F26125CD500BAB17F /* ThemeViewController.swift in Sources */,
+				CE3E0C9126125BC400BAB17F /* SetupViewController.swift in Sources */,
+				CE3E0C9926125C5900BAB17F /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		CE3E0C7926125A1500BAB17F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE3E0C7A26125A1500BAB17F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CE3E0C7E26125A1800BAB17F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE3E0C7F26125A1800BAB17F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CE3E0C8226125A1800BAB17F /* Debug */ = {
